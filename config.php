@@ -14,7 +14,7 @@ if(ENVIRONMENT == 'desenvolvimento'){
 	
 }else{
 	
-	define("BASE_URL","http://lista_usuarios.pc/");
+	define("BASE_URL","//projeto_lista_usuarios-master/");
 	$config['dbname'] = 'listagem';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
