@@ -1,0 +1,51 @@
+body{
+	margin:0;	
+}
+.container_principal{
+	width:85%;
+	margin:auto;
+	margin-top:30px;
+	border: 2px solid orange;
+	border-radius:5px;
+	text-align:center;
+}
+input[type=text], input[type=tel]{
+	width:30%;
+	margin:10px;
+	padding:10px;
+	border:1px solid black;
+	display:inline-block;
+}
+input[type=submit]{
+	width:10%;
+	margin:10px;
+	padding:10px;
+	background-color:orange;
+	color:white;
+	border:1px solid orange;
+	border-radius:5px;
+	display:inline-block;
+}
+input[type=submit]:hover{
+	background-color:#e68a00;
+	border:1px solid #e68a00;
+}
+table{
+	width:70%;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:1px solid orange;	
+	text-align:center;
+	border-collapse:collapse;
+}
+table, th, td{
+	padding:10px;
+	border:1px solid orange;
+}
+.demo{
+	width:90%;
+	height:50%;
+	margin:auto;
+	border:2px solid red;
+}
