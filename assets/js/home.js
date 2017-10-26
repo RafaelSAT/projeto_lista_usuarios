@@ -3,7 +3,7 @@ function carregarTabela(){
 	var itens = '';	
 	
 	$.ajax({
-		url:'http://lista_usuarios.pc/models/Tabela.php',
+		url:'http://projeto_lista_usuarios.pc/models/Tabela.php',
 		cache: false,
 		dataType: "json",
 		beforeSend:function(){
