@@ -49,3 +49,17 @@ table, th, td{
 	margin:auto;
 	border:2px solid red;
 }
+.Masculino{
+	background-color:#4fc3f7;
+}
+.Feminino{
+	background-color:pink;
+}
+.leg{
+	width:10px;
+	margin-left:5px;
+	margin-right:5px;
+	height:10px;	
+	border:1px solid black;
+	display:inline-block;
+}

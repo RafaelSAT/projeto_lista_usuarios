@@ -6,8 +6,8 @@ require '../config.php';
 
 global $db;
 		
-	$sql = $db->prepare("SELECT * FROM lista");
-	$sql->execute();	
+	$sql = $db->prepare("SELECT * FROM lista ORDER BY id DESC");
+	$sql->execute();
 	
 	if($sql->rowCount() > 0){
 			

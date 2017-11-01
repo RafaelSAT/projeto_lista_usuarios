@@ -10,7 +10,7 @@ global $db;
 				
 			$nome = addslashes($_POST['campo_nome']);
 			$telefone = addslashes($_POST['campo_telefone']);
-			$sexo = $_POST['sexo'];
+			$sexo = addslashes($_POST['sexo']);
 				
 			if($sexo == 'Masculino'){
 					
